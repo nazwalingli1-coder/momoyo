@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ed1238">
+  <meta name="description" content="MOMOYO Pancing — Ice Cream & Fruit Tea. Temukan waffle, soft serve, fruit tea, dan dessert favoritmu!">
+  <title>MOMOYO Pancing — Sweetness in Every Bite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="intro" id="intro" aria-label="Pembuka MOMOYO">
+    <div class="intro-orbit orbit-one"></div><div class="intro-orbit orbit-two"></div>
+    <img src="assets/soft-serve-cutout.png" alt="Es krim soft serve MOMOYO tanpa latar belakang" class="intro-treat intro-icecream">
+    <div class="intro-spark spark-one">✦</div><div class="intro-spark spark-two">♡</div>
+    <div class="intro-logo-wrap"><img src="assets/momoyo-logo.png" alt="Logo MOMOYO" class="intro-logo"></div>
+    <p class="intro-kicker">ICE CREAM &amp; FRUIT TEA</p>
+    <h1 class="intro-title">MOMOYO</h1>
+    <p class="intro-tagline">Sweetness in every bite ✨</p>
+    <div class="intro-loader"><span></span></div>
+  </div>
+
+  <div class="site-shell" id="site">
+    <div class="top-ribbon"><span>🍦 A little sweetness makes a big difference!</span><span>Freshly made, just for you ♡</span></div>
+    <header class="navbar">
+      <a class="brand" href="#home" aria-label="MOMOYO beranda">
+        <img src="assets/momoyo-logo.png" alt="MOMOYO logo">
+        <span><b>MOMOYO</b><small>ICE CREAM &amp; FRUIT TEA</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+      <nav id="navLinks">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#menu">Our Menu</a>
+        <a class="nav-link" href="#story">Our Story</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#visit">Outlet</a>
+      </nav>
+      <a class="nav-order" href="https://vt.tiktok.com/ZS9UsExNXbvNN-9tupD/?poisharing=MOMOYO---PANCING" target="_blank" rel="noopener">Order Now <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-decor decor-heart">♡</div><div class="hero-decor decor-star">✦</div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> ICE CREAM &amp; FRUIT TEA <span class="eyebrow-line"></span></div>
+          <h1>Little treats,<br><em>big happy</em><br>moments<span class="pink-dot">.</span></h1>
+          <p class="hero-description">Dari gigitan waffle yang renyah sampai tegukan fruit tea yang segar — selalu ada rasa manis untuk harimu.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">Explore Our Menu <span>↗</span></a>
+            <a class="btn btn-ghost" href="#visit">Find Our Outlet</a>
+          </div>
+          <div class="hero-perks">
+            <div><span class="perk-icon">♡</span><span><b>Made with love</b><small>For your happy day</small></span></div>
+            <div><span class="perk-icon">✿</span><span><b>Fresh &amp; creamy</b><small>Sweet little moments</small></span></div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/momoyo-hero-crop.png" alt="Tampilan utama MOMOYO Ice Cream & Fruit Tea" class="hero-image">
+        </div>
+        <a class="scroll-cue" href="#menu"><span></span> SCROLL TO TASTE</a>
+      </section>
+
+      <div class="marquee" aria-hidden="true"><div class="marquee-track">
+        <span>♡ SWEETNESS IN EVERY BITE</span><i>✦</i><span>FRESHLY MADE EVERY DAY</span><i>✦</i><span>YOUR HAPPY LITTLE TREAT</span><i>✦</i><span>♡ SWEETNESS IN EVERY BITE</span><i>✦</i><span>FRESHLY MADE EVERY DAY</span><i>✦</i>
+      </div></div>
+
+      <section class="menu-section section-pad" id="menu">
+        <div class="section-heading reveal">
+          <span class="section-label">A MENU FULL OF JOY</span>
+          <h2>Find your <em>happy flavor</em></h2>
+          <p>Yang creamy, yang fruity, sampai yang bikin mood naik seketika.</p>
+        </div>
+        <div class="filter-row reveal" role="group" aria-label="Filter kategori menu">
+          <button class="filter-btn active" data-filter="all">All treats</button>
+          <button class="filter-btn" data-filter="waffle">Waffle</button>
+          <button class="filter-btn" data-filter="icecream">Ice cream</button>
+          <button class="filter-btn" data-filter="drink">Fruit tea &amp; drinks</button>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal" data-category="waffle">
+            <div class="product-image"><span class="product-badge">BEST SELLER</span><img src="assets/5.jpeg" alt="MOMOYO bubble waffle original" loading="lazy"><button class="quick-order" data-product="Bubble Waffle Original" aria-label="Pesan Bubble Waffle Original">↗</button></div>
+            <div class="product-info"><div class="product-type">WAFFLE SERIES</div><h3>Bubble Waffle Original</h3><p>Waffle golden yang lembut di dalam dan renyah di luar.</p><div class="product-bottom"><strong>Rp18.000</strong><span>♡ Sweet pick</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="waffle">
+            <div class="product-image"><span class="product-badge badge-new">MANGO LOVE</span><img src="assets/6.jpeg" alt="Mango waffle dengan topping" loading="lazy"><button class="quick-order" data-product="Mango Waffle Sundae" aria-label="Pesan Mango Waffle Sundae">↗</button></div>
+            <div class="product-info"><div class="product-type">WAFFLE SERIES</div><h3>Mango Waffle Sundae</h3><p>Waffle hangat dengan es krim dan saus mangga manis.</p><div class="product-bottom"><strong>Rp28.000</strong><span>♡ Fruity</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="waffle">
+            <div class="product-image"><img src="assets/2.jpeg" alt="Oreo chocolate waffle" loading="lazy"><button class="quick-order" data-product="Oreo Choco Waffle" aria-label="Pesan Oreo Choco Waffle">↗</button></div>
+            <div class="product-info"><div class="product-type">WAFFLE SERIES</div><h3>Oreo Choco Waffle</h3><p>Perpaduan cokelat, remahan cookies, dan creamy ice cream.</p><div class="product-bottom"><strong>Rp28.000</strong><span>♡ Choco mood</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="waffle">
+            <div class="product-image"><img src="assets/8.jpeg" alt="Strawberry waffle sundae" loading="lazy"><button class="quick-order" data-product="Strawberry Waffle Sundae" aria-label="Pesan Strawberry Waffle Sundae">↗</button></div>
+            <div class="product-info"><div class="product-type">WAFFLE SERIES</div><h3>Strawberry Waffle</h3><p>Manis segar stroberi dengan waffle dan soft serve.</p><div class="product-bottom"><strong>Rp28.000</strong><span>♡ Berry nice</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="icecream">
+            <div class="product-image"><span class="product-badge">CREAMY!</span><img src="assets/soft-serve.png" alt="Soft serve cone cokelat vanilla dan matcha" loading="lazy"><button class="quick-order" data-product="Soft Serve Cone" aria-label="Pesan Soft Serve Cone">↗</button></div>
+            <div class="product-info"><div class="product-type">ICE CREAM SERIES</div><h3>Soft Serve Cone</h3><p>Pilih rasa favorit: chocolate, vanilla, atau matcha.</p><div class="product-bottom"><strong>Rp12.000</strong><span>♡ Classic</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="icecream">
+            <div class="product-image"><img src="assets/7.jpeg" alt="Strawberry ice cream cup" loading="lazy"><button class="quick-order" data-product="Strawberry Sundae Cup" aria-label="Pesan Strawberry Sundae Cup">↗</button></div>
+            <div class="product-info"><div class="product-type">ICE CREAM SERIES</div><h3>Strawberry Sundae</h3><p>Soft serve lembut dengan saus stroberi yang segar.</p><div class="product-bottom"><strong>Rp18.000</strong><span>♡ Berry sweet</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="drink">
+            <div class="product-image"><img src="assets/4.jpeg" alt="Lemon fruit tea segar" loading="lazy"><button class="quick-order" data-product="Fresh Lemon Tea" aria-label="Pesan Fresh Lemon Tea">↗</button></div>
+            <div class="product-info"><div class="product-type">FRUIT TEA SERIES</div><h3>Fresh Lemon Tea</h3><p>Teh lemon dingin yang ringan, segar, dan bikin adem.</p><div class="product-bottom"><strong>Rp15.000</strong><span>♡ Refreshing</span></div></div>
+          </article>
+          <article class="menu-card reveal" data-category="drink">
+            <div class="product-image"><span class="product-badge badge-new">CREAMY PICK</span><img src="assets/3.jpeg" alt="MOMOYO creamy milk tea" loading="lazy"><button class="quick-order" data-product="Creamy Milk Tea" aria-label="Pesan Creamy Milk Tea">↗</button></div>
+            <div class="product-info"><div class="product-type">MILK TEA SERIES</div><h3>Creamy Milk Tea</h3><p>Milk tea creamy untuk teman santai dan cerita.</p><div class="product-bottom"><strong>Rp18.000</strong><span>♡ Cozy sip</span></div></div>
+          </article>
+        </div>
+        <p class="price-note">* Nama menu dan harga di atas adalah contoh sementara. Silakan sesuaikan dengan menu dan harga outlet MOMOYO Pancing.</p>
+        <div class="menu-cta reveal"><span>Found your favorite?</span><a class="btn btn-primary" href="https://vt.tiktok.com/ZS9UsExNXbvNN-9tupD/?poisharing=MOMOYO---PANCING" target="_blank" rel="noopener">Let's order <span>↗</span></a></div>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="story-image reveal"><img src="assets/dessert-cup.png" alt="Dessert MOMOYO dengan topping lezat" loading="lazy"><span class="story-stamp">MADE<br>FOR<br>HAPPY ♡</span></div>
+        <div class="story-copy reveal"><span class="section-label">A LITTLE MOMOYO MAGIC</span><h2>One scoop closer<br>to <em>happiness.</em></h2><p>Di MOMOYO, momen sederhana jadi terasa lebih manis. Nikmati kombinasi es krim lembut, waffle yang menggoda, dan minuman segar untuk menemani harimu.</p><p>Datang bareng teman, keluarga, atau traktir diri sendiri — kamu selalu punya alasan untuk menikmati little treat.</p><div class="story-signature">Sweet moments, made together <span>♡</span></div><a class="text-link" href="#gallery">See our sweet moments <span>↗</span></a></div>
+      </section>
+
+      <section class="gallery-section section-pad" id="gallery">
+        <div class="section-heading reveal"><span class="section-label">A FEAST FOR YOUR EYES</span><h2>Too cute <em>not to share.</em></h2><p>Scroll, screenshot, lalu ajak bestie cobain bareng ♡</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item gallery-tall reveal" data-image="assets/waffle-mango.png" aria-label="Lihat foto Mango Waffle"><img src="assets/waffle-mango.png" alt="Mango waffle" loading="lazy"><span>mango kinda day <b>↗</b></span></button>
+          <button class="gallery-item reveal" data-image="assets/strawberry-cup.png" aria-label="Lihat foto Strawberry Sundae"><img src="assets/strawberry-cup.png" alt="Strawberry sundae" loading="lazy"><span>berry in love <b>↗</b></span></button>
+          <button class="gallery-item reveal" data-image="assets/soft-serve.png" aria-label="Lihat foto Soft Serve"><img src="assets/soft-serve.png" alt="Soft serve ice cream" loading="lazy"><span>soft serve mood <b>↗</b></span></button>
+          <button class="gallery-item reveal" data-image="assets/milk-tea.png" aria-label="Lihat foto Milk Tea"><img src="assets/milk-tea.png" alt="Milk tea" loading="lazy"><span>sip sip hooray <b>↗</b></span></button>
+        </div>
+      </section>
+
+      <section class="visit-section" id="visit">
+        <div class="visit-pattern"></div><div class="visit-content reveal">
+          <span class="section-label light-label">COME SAY HELLO!</span><h2>Your next happy<br>place is <em>MOMOYO.</em></h2>
+          <p>Mampir ke outlet MOMOYO Pancing dan temukan treat favoritmu.</p>
+          <div class="address-card"><span class="address-icon">⌖</span><div><b>MOMOYO — Pancing</b><p>Jl. Pancing No. 63 A, Sidorejo, Kec. Medan Tembung, Kota Medan, Sumatera Utara 20222</p><a href="https://maps.app.goo.gl/duKSpbuLSFLMcBbn9?g_st=ac" target="_blank" rel="noopener">Get directions ↗</a></div></div>
+          <a class="btn btn-white" href="https://vt.tiktok.com/ZS9UsExNXbvNN-9tupD/?poisharing=MOMOYO---PANCING" target="_blank" rel="noopener">Order via voucher <span>↗</span></a>
+        </div><div class="visit-art"><img src="assets/momoyo-logo.png" alt="" aria-hidden="true"><div class="visit-bubble">see you<br>soon! ♡</div></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand footer-brand" href="#home"><img src="assets/momoyo-logo.png" alt="MOMOYO logo"><span><b>MOMOYO</b><small>ICE CREAM &amp; FRUIT TEA</small></span></a>
+      <p>Made with a little extra sweetness. <span>♡</span></p>
+      <div class="social-links"><a href="https://www.instagram.com/momoyopancing.id?dlrf=YXI1M2hra29lMzNl" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/@momoyo.pancing?_r=1&_t=ZS-9Ajs2ZsVR4e" target="_blank" rel="noopener">TikTok ↗</a><a href="https://maps.app.goo.gl/duKSpbuLSFLMcBbn9?g_st=ac" target="_blank" rel="noopener">Maps ↗</a></div>
+      <div class="footer-bottom"><span>© <span id="year"></span> MOMOYO Pancing</span><a href="#home">Back to top ↑</a></div>
+    </footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau foto"><button class="lightbox-close" id="lightboxClose" aria-label="Tutup">×</button><img id="lightboxImage" src="" alt="Foto menu MOMOYO"></div>
+  <button class="back-top" id="backTop" aria-label="Kembali ke atas">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
